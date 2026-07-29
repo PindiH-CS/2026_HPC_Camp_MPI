@@ -1,0 +1,27 @@
+# local only, never committed
+answers/
+
+# build output
+lab1-hello/mpi_hello_world
+lab1-hello/mpi_send_recv
+lab2-pi/pi_calc
+hw-mergesort/parallel_merge_sort
+*.o
+*.exe
+
+# slurm / run output
+*.out
+*.e
+[0-9]*.out
+*.result
+
+# local testcases (gen_testcase.py writes .in / .out / .txt)
+*.in
+*.txt
+
+__pycache__/
+sb/
+
+# course slides -- not mine to redistribute; delete this line if you want them
+# in the repo
+*.pptx
